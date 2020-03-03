@@ -76,11 +76,11 @@ html{
 .BottomContainer{
   margin-left: .5vw;
   margin-right: .5vw;
+  padding-top: 10px;
 }
 
 .Barcode{
   align-items: center;
-
 }
 
 .Num{
