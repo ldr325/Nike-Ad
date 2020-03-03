@@ -44,16 +44,13 @@ html{
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
+  color: #ffffff;
 }
 
 .leftTitle1{
-  color: #ffffff;
   font-weight: bold;
 }
 
-.leftTitle{
-  color: #ffffff;
-}
 
 .rightTitle{
   color: #ffffff;
@@ -67,12 +64,13 @@ html{
   flex-direction: column;
   justify-content: flex-end;
   color: #ffffff;
-  margin-right: 100px;
 }
 
-.BrightTitle{
+.BRight{
+  display: flex;
+  align-items: flex-end;
   color: #ffffff;
-  text-align: right;
+  flex-direction: column;
 }
 
 .BottomContainer{
