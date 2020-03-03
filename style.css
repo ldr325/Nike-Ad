@@ -50,6 +50,8 @@ html{
 .rightTitle{
   color: #ffffff;
   text-align: right;
+  transform-origin: right;
+  transform: rotate(90deg);
 }
 
 .BleftTitle{
