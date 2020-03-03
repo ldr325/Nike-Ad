@@ -35,6 +35,11 @@ html{
   align-items: center;
 }
 
+.mainImg{
+  display: flex;
+  justify-content: center;
+}
+
 .leftTitle1{
   align-items: flex-start;
   color: #ffffff;
