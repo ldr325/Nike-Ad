@@ -40,6 +40,12 @@ html{
   justify-content: center;
 }
 
+.TLeft{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
 .leftTitle1{
   color: #ffffff;
   font-weight: bold;
