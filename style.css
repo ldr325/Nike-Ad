@@ -1,0 +1,108 @@
+/**{
+  box-sizing: border-box;
+  border: solid black 1px;
+}*/
+
+html{
+  font-family: 'Gothic A1', sans-serif;
+  background-color: #8C8C8C;
+  margin-left: 23.5vw;
+  margin-right: 23.5vw;
+  border: solid black 1px;
+}
+
+.Title{
+  font-size: 68pt;
+}
+
+.Title2{
+  font-size: 68pt;
+  text-align: center;
+}
+
+.squareContainer{
+  background-color: #000000;
+  margin-left: .5vw;
+  margin-right: .5vw;
+  padding: 2px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.image{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.leftTitle1{
+  align-items: flex-start;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.leftTitle{
+  align-items: flex-start;
+  color: #ffffff;
+  flex-direction: column;
+}
+
+.rightTitle{
+  color: #ffffff;
+  text-align: right;
+}
+
+.BleftTitle{
+  display: flex;
+  color: #ffffff;
+  align-items: flex-end;
+}
+
+.BrightTitle{
+  color: #ffffff;
+  text-align: right;
+}
+
+.BottomContainer{
+  margin-left: .5vw;
+  margin-right: .5vw;
+}
+
+.Barcode{
+  align-items: center;
+
+}
+
+.Num{
+  font-size: 10pt;
+}
+
+.catchphrase{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 250px;
+  padding-right:250px;
+}
+
+.textCatch{
+  font-size: 10pt;
+  color: #ffffff;
+  text-align: center;
+}
+
+.Logo{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.line{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.finalText{
+  font-size: 10pt;
+}
