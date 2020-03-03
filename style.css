@@ -6,8 +6,8 @@
 html{
   font-family: 'Gothic A1', sans-serif;
   background-color: #8C8C8C;
-  margin-left: 23.5vw;
-  margin-right: 23.5vw;
+  margin-left: 23.2vw;
+  margin-right: 23.2vw;
   border: solid black 1px;
 }
 
@@ -41,15 +41,12 @@ html{
 }
 
 .leftTitle1{
-  align-items: flex-start;
   color: #ffffff;
   font-weight: bold;
 }
 
 .leftTitle{
-  align-items: flex-start;
   color: #ffffff;
-  flex-direction: column;
 }
 
 .rightTitle{
@@ -59,10 +56,12 @@ html{
   transform: rotate(90deg);
 }
 
-.BleftTitle{
+.BLeft{
   display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
   color: #ffffff;
-  align-items: flex-end;
+  margin-right: 100px;
 }
 
 .BrightTitle{
